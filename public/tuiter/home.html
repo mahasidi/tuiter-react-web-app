@@ -5,18 +5,62 @@
 	<title>Homepage</title>
 </head>
 <body>
-	<p><a href="navigation.html">Back</a></p>
-	<h1>Tuiter</h1>
-	<h2>Home</h2>
-	
-	<img width="48" height="48" src="maha.jpg"/>
-		<textarea cols="20"
-		          rows="25"
-		          placeholder="Biography"
-		          title="tooltip">Some text
-		</textarea>
-	</form>
+<p><a href="navigation.html">Back</a></p>
+<h1>Tuiter</h1>
+<h2>Home</h2>
 
+<!-- create tweet section (personal) -->
+<img width="48px" height="48px" src="images/mahart.jpg" alt="a picture of maha sidi"/>
+<form id="chat-box">
+	<label for="tweet-box">
+		<textarea id="tweet-box" placeholder="What's happening?"></textarea>
+	</label>
+</form>
+<form id="viewer-settings">
+	<label for="select-one">
+		<select id="select-one">
+			<option selected value="EVERYONE">Everyone can reply</option>
+			<option value="FOLLOWING">People you follow</option>
+			<option value="MENTIONED">Only people you mention</option>
+		</select>
+	</label>
+</form>
+<hr>
+
+<!-- attach file and submit -->
+<input type="file"/>
+<button type="button">Tuit</button>
+<hr>
+
+<!-- tweets -->
+<ul>
+	<!-- tweet #1 -->
+	<li>
+		<a href="topic.html">Topic 123</a> <br/>
+		<img width="48px" height="48px" src="images/mahart.JPG" alt="a picture of a person with back lighting"/>
+		<a href="profile.html">Maha</a> @maha - 2h
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec fringilla odio, eget consequat dolor.
+			Suspendisse a egestas libero. Sed ac semper lorem. Phasellus viverra enim sit amet dictum pulvinar. Proin
+			suscipit, leo at fringilla commodo, lacus ante blandit massa, vel rhoncus diam nisi id sapien. Sed suscipit,
+			libero in pellentesque aliquet, justo mauris molestie augue, at bibendum sapien orci quis tellus. In at orci
+			vulputate, molestie leo at, suscipit ligula. </p>
+		<p><a href="reply.html">Reply</a> 123 | <a href="retuit.html">Retuit</a> 234 | <a href="like.html">Like</a> 345
+			| <a href="share.html">Share</a></p>
+	</li>
+	<!-- tweet #2 -->
+	<li>
+		<a href="topic.html">Topic 234</a> <br/>
+		<img width="48px" height="48px" src="images/profile_pic1.jpeg" alt="a picture of a person with back lighting"/>
+		<a href="profile.html">Rudy</a> @rudy - 4h
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec fringilla odio, eget consequat dolor.
+			Suspendisse a egestas libero. Sed ac semper lorem. Phasellus viverra enim sit amet dictum pulvinar. Proin
+			suscipit, leo at fringilla commodo, lacus ante blandit massa, vel rhoncus diam nisi id sapien. Sed suscipit,
+			libero in pellentesque aliquet, justo mauris molestie augue, at bibendum sapien orci quis tellus. In at orci
+			vulputate, molestie leo at, suscipit ligula. </p>
+		<p><a href="reply.html">Reply</a> 123 | <a href="retuit.html">Retuit</a> 234 | <a href="like.html">Like</a> 345
+			| <a href="share.html">Share</a></p>
+	</li>
+</ul>
 
 
 </body>
