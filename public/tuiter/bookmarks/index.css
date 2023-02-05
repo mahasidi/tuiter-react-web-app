@@ -1,0 +1,148 @@
+.wd-bg-color-black {
+    background-color: black;
+}
+
+.wd-text-family {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wd-padded-more {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+}
+
+.wd-grid-col-left-sidebar {
+    width: 30%;
+    float: left;
+}
+
+.wd-grid-row {
+    clear: both;
+}
+
+.wd-grid-col-main-content {
+    width: 40%;
+    float: left;
+    border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-grid-col-right-sidebar {
+    width: 30%;
+    float: left;
+}
+
+.wd-lightgray-text {
+    color: #6c747d;
+}
+
+.wd-white-text {
+    color: #d9d9d9;
+}
+
+.wd-head-font {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.wd-bold-text {
+    font-weight: bold;
+}
+
+.wd-handle-main {
+    font-size: 13px;
+    margin: 0px;
+}
+
+.wd-flex {
+    display: flex;
+}
+
+.wd-text-portion {
+    float: left;
+    width: 80%;
+}
+.wd-img-portion {
+    margin-left: auto;
+}
+
+.wd-header-border {
+    padding-bottom: 12px;
+    border-bottom:  1px solid #6c747d;
+}
+
+.wd-pfp {
+    height: 48px;
+    width: 48px;
+    border-radius: 30px;
+}
+
+.wd-large-image {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.wd-img-height {
+    width: 10%;
+    float: left;
+
+}
+
+.wd-margin-right {
+    width: 90%;
+    float: right;
+}
+
+.wd-no-margin {
+    margin: 0px;
+}
+
+.wd-padding-below {
+
+}
+
+.wd-12-padding {
+    padding-top: 12px;
+}
+.wd-word-width {
+    max-width: 506px;
+}
+
+.wd-main-padding {
+    padding-left: 16px;
+}
+.wd-15-font {
+    font-size: 15px;
+}
+
+.wd-allsides-padding {
+    padding: 12px;
+}
+
+.wd-all-border{
+    border: 1px solid #6c747d;
+    border-radius: 20px;
+    max-width: 505px;
+}
+
+.wd-top-border{
+    border-top: 1px solid #6c747d;
+}
+
+.wd-icon {
+    width: 20px;
+    height: 20px;
+    padding-right: 12px;
+}
+.wd-icon-text {
+    font-size: 12px;
+    color: #6c747d;
+}
+
+.wd-icons-layout {
+    display: flex;
+    justify-content: space-evenly;
+}
+.wd-post-content {    font-size: 15px;    width: 506px;    padding-right: 16px;    margin-bottom: 12px;    display: inline-block;    margin-left: 12px;    margin-top: 0;}
