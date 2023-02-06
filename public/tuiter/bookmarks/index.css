@@ -1,5 +1,5 @@
 .wd-bg-color-black {
-    background-color: black;
+  background-color: black;
 }
 
 .wd-text-family {
@@ -68,13 +68,15 @@
 
 .wd-header-border {
     padding-bottom: 12px;
-    border-bottom:  1px solid #6c747d;
+    border-bottom:  1px solid rgb(47, 51, 54);
+
+
 }
 
 .wd-pfp {
     height: 48px;
     width: 48px;
-    border-radius: 30px;
+
 }
 
 .wd-large-image {
@@ -91,7 +93,9 @@
 }
 
 .wd-margin-right {
-    width: 90%;
+    position: relative;
+    bottom: 60px;
+    display: inline;
     float: right;
 }
 
@@ -100,7 +104,7 @@
 }
 
 .wd-padding-below {
-
+    padding-bottom: 12px;
 }
 
 .wd-12-padding {
@@ -122,27 +126,36 @@
 }
 
 .wd-all-border{
-    border: 1px solid #6c747d;
+    border: 1px solid rgb(47, 51, 54);
     border-radius: 20px;
-    max-width: 505px;
+    max-width: 504px;
 }
 
-.wd-top-border{
-    border-top: 1px solid #6c747d;
+.wd-bottom-border{
+    border-bottom: 1px solid rgb(47, 51, 54);
 }
 
 .wd-icon {
     width: 20px;
     height: 20px;
     padding-right: 12px;
+    position: relative;
+    top: 5px;
 }
 .wd-icon-text {
     font-size: 12px;
-    color: #6c747d;
+    color: rgb(47, 51, 54);
 }
 
 .wd-icons-layout {
     display: flex;
     justify-content: space-evenly;
 }
-.wd-post-content {    font-size: 15px;    width: 506px;    padding-right: 16px;    margin-bottom: 12px;    display: inline-block;    margin-left: 12px;    margin-top: 0;}
+
+.wd-icons-layout a:link {
+    text-decoration: none;
+}
+
+.wd-red-text {
+    color: #e0265e;
+}
