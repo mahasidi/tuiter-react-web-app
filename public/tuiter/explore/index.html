@@ -4,113 +4,271 @@
 	<meta charset="UTF-8">
 	<title>Explore Page</title>
 	<link href="public/tuiter/styles.css" rel="stylesheet" />
+	<link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
 	<link rel="stylesheet" href="index.css">
 </head>
-<body class="wd-bg-color-black wd-text-family">
-<div class="wd-grid-col-left-sidebar">&nbsp;</div>
-<div class="wd-padded wd-grid-col-main-content">
-	<div class="wd-gray-background wd-majority-width wd-padding-small wd-very-rounded">
-		<label for="search-bar">
-			<img src="images/search.svg" alt="Small search icon" class="wd-md-icon wd-padding-search"/>
-			<input type="text" id="search-bar"
-			       placeholder="Search Tuiter" class="wd-transparent-input wd-search-text-size wd-position-search
-wd-lightgray-text wd-90-width"/>
-		</label>
+<body>
+<div class="mt-2">
+<div class="row  justify-content-center">
+<div class="col-2">
+	<div class="list-group ms-5">
+		<a href="#" class="list-group-item list-group-item-action">
+			<i class="fab fa-twitter"></i></a>
+		<a href="#" class = "list-group-item list-group-item-action active">
+			<div class="row">
+				<div class="col-1">
+			<i class="fa fa-house pe-0"></i>
+				</div>
+				<div class="col-6">
+				<span class="d-none d-xl-block">Home</span>
+				</div>
+			</div>
+		</a>
+		<a href="#" class = "list-group-item list-group-item-action">
+			<div class="row">
+				<div class="col-1">
+					<i class="fab fa-hashtag pe-0"></i>
+				</div>
+				<div class="col-6">
+					<span class="d-none d-xl-block">Explore</span>
+				</div>
+			</div>
+		</a>
+		<a href="#" class = "list-group-item list-group-item-action">
+			<div class="row">
+				<div class="col-1">
+					<i class="fa-solid fa-bell pe-0"></i>
+				</div>
+				<div class="col-6">
+					<span class="d-none d-xl-block">Notifications</span>
+				</div>
+			</div>
+		</a>
+		<a href="#" class = "list-group-item list-group-item-action">
+			<div class="row">
+				<div class="col-1">
+					<i class="fa-solid fa-envelope pe-0"></i>
+				</div>
+				<div class="col-6">
+					<span class="d-none d-xl-block">Messages</span>
+				</div>
+			</div>
+		</a>
+		<a href="#" class = "list-group-item list-group-item-action">
+			<div class="row">
+				<div class="col-1">
+					<i class="fa-solid fa-bookmark pe-0"></i>
+				</div>
+				<div class="col-6">
+					<span class="d-none d-xl-block">Bookmarks</span>
+				</div>
+			</div>
+		</a>
+		<a href="#" class = "list-group-item list-group-item-action">
+			<div class="row">
+				<div class="col-1">
+					<i class="fa-solid fa-list pe-0"></i>
+				</div>
+				<div class="col-6">
+					<span class="d-none d-xl-block">Lists</span>
+				</div>
+			</div>
+		</a>
+		<a href="#" class = "list-group-item list-group-item-action">
+			<div class="row">
+				<div class="col-1">
+					<i class="fa-solid fa-user pe-0"></i>
+				</div>
+				<div class="col-6">
+					<span class="d-none d-xl-block">Profile</span>
+				</div>
+			</div>
+		</a>
+		<a href="#" class = "list-group-item list-group-item-action">
+			<div class="row">
+				<div class="col-1">
+					<i class="fa-solid fa-ellipsis pe-0"></i>
+				</div>
+				<div class="col-6">
+					<span class="d-none d-xl-block">More</span>
+				</div>
+			</div>
+		</a>
+		<!-- MORE ICON -->
+		<button type="button" class="btn btn-primary rounded-pill mt-3 pe-0 ps-0"><span class="">Tweet</span></button>
 	</div>
-	<a href="explore-settings.html"><img src="images/settings.svg" alt="A gear icon representing settings" class="wd-md-icon wd-padding-right
-	wd-padding-settings"/></a>
-	<br/> <br/>
-	<div class="wd-nav-links-display">
-		<ul class="wd-nav-links-spacing">
-			<li class="wd-text-blue">For you</li>
-			<li>Trending</li>
-			<li>COVID-19</li>
-			<li>News</li>
-			<li>Sports</li>
-			<li>Entertainment</li>
+</div>
+	<!-- Middle sect -->
+<div class="col-6">
+	<div class="row">
+	<div class="col-11">
+	<div class="input-group mb-3">
+		<i class="fa-solid fa-search pt-2 pe-2 ps-3 border-search no-border-right"></i>
+		<input type="text" class="form-control no-border-left border-right-round" placeholder="Search Twitter">
+	</div>
+	</div>
+	<div class="col-1">
+		<i class="fa-solid fa-gear fa-2x gear-icon-color pt-1"></i>
+	</div>
+		<ul class="nav nav-tabs">
+			<li class="nav-item">
+				<a class="nav-link active" href="#">For You</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Trending</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">News</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Sports</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link d-none d-md-block hide-screen" href="#">Entertainment</a>
+			</li>
+		</ul>
+		<ul class="list-group rounded-img">
+			<a href="#" class="list-group-item list-group-item-action p-0 no-border-only-bottom col-12">
+			<img src="images/space-x.jpeg" class="pt-2 col-12" alt="Pictured: Space-x's starship"/>
+			<h2 class="carousel-caption img-text">SpaceX's Starship</h2>
+			</a>
+			<a href="#" class = "list-group-item list-group-item-action d-inline-block">
+				<div class="row">
+					<div class="col-10">
+						<p><span class="wd-lightgray-text">Web Development</span> <br>
+						<b>ReactJS</b> <i class="fa-solid fa-circle-check"></i> <span class="wd-lightgray-text">- 2h</span> <br>
+							<b>React is a component based front end library that makes it very easy
+							to build Single Page Applications or SPAs</b>
+						</p>
+					</div>
+					<div class="col-2 m-auto">
+						<img src="images/react.png" class="rounded-img img-sizing" width="80" height="80" alt="react logo">
+					</div>
+				</div>
+			</a>
+			<a href="#" class = "list-group-item list-group-item-action d-inline-block">
+				<div class="row">
+					<div class="col-10">
+							<b>JavaScript </b><i class="fa-solid fa-circle-check"></i> <span class="wd-lightgray-text">- 2h</span> <br>
+							<b>JavaScript is a programing language that can run on browsers as well as desktops</b><br>
+						<p><span class="wd-lightgray-text">123K tweets</span>
+						</p>
+					</div>
+					<div class="col-2 m-auto">
+						<img src="images/js.png" class="rounded-img img-sizing"width="80" height="80" alt="javascript logo">
+					</div>
+				</div>
+			</a>
+			<a href="#" class = "list-group-item list-group-item-action d-inline-block">
+				<div class="row">
+					<div class="col-10">
+						<p><span class="wd-lightgray-text">Web Development</span> <br>
+							<b>JQuery </b><br>
+						<span class="wd-lightgray-text">123K tweets</span>
+						
+					</div>
+					<div class="col-2 m-auto">
+						<img src="images/jquery.png" class="rounded-img img-sizing" width="80" height="80" alt="jquery logo">
+					</div>
+				</div>
+			</a>
+			<a href="#" class = "list-group-item list-group-item-action d-inline-block">
+				<div class="row">
+					<div class="col-10">
+						<p><span class="wd-lightgray-text">Web Development</span> <br>
+							<b>NodeJS </b> <i class="fa-solid fa-circle-check"></i> <span class="wd-lightgray-text">- 2h</span> <br>
+							<span class="wd-lightgray-text">123K tweets</span>
+						</p>
+					</div>
+					<div class="col-2 m-auto">
+						<img src="images/node.png" class="rounded-img img-sizing" width="80" height="80" alt="nodejs logo">
+					</div>
+				</div>
+			</a>
 		</ul>
 	</div>
-	<!-- First c-type post -->
-	<div class="wd-post">
-		<div class="wd-text-portion">
-			<p class="wd-lightgray-text wd-topic-font">Trending in Rap</p>
-			<p class="wd-white-text wd-bold-text ">Latto</p>
-			<p class="wd-lightgray-text wd-topic-font">18.2K Tweets</p>
-		</div>
-		<div class="wd-img-portion">
-			<img src="images/more-horizontal.svg" alt="3 dots representing more option"/>
-		</div>
-	</div>
-	<!-- End of first c-type post -->
-	<!-- Start of second d-type post -->
-	<div class="wd-post">
-		<div class="wd-text-portion">
-			<p class="wd-white-text wd-topic-font">
-				<img class="wd-logo-img" src="images/washpost.png" alt="washington post logo"/>
-				<span class="wd-bold-text">The Washington Post</span>
-				<img class="wd-logo-img" src="images/verified.png" alt="verified symbol"/>
-				<span class="wd-lightgray-text">• Yesterday</span></p>
-			<p class="wd-white-text wd-bold-text ">10 chicken soup recipes to warm your body and soul</p>
-		</div>
-		<div class="wd-img-portion">
-			<img src="images/chickensoup.jpeg" alt="a picture of a bowl of chicken soup"
-			     class="wd-post-image"/>
-		</div>
-	</div>
-	<!-- End of second d-type post -->
-	<!-- Start of second e-type post -->
-	<div class="wd-post ">
-		<div class="wd-text-portion">
-			<p class="wd-lightgray-text wd-topic-font">Love Island • TRENDING</p>
-			<p class="wd-white-text wd-bold-text ">Love Island's Shaq represents a big change for the show</p>
-		</div>
-		<div class="wd-img-portion">
-			<img src="images/love%20island.png" alt="a picture of the love island logo"
-			     class="wd-post-image"/>
-		</div>
-	</div>
-	<!-- End of second e-type post -->
-	<!-- Start of first d-type post -->
-	<div class="wd-post">
-		<div class="wd-text-portion">
-			<p class="wd-white-text wd-topic-font">
-				<img class="wd-logo-img" src="images/nytlogo.png" alt="new york times logo"/>
-				<span class="wd-bold-text">The New York Times</span>
-				<img class="wd-logo-img" src="images/verified.png" alt="verified symbol"/>
-				<span class="wd-lightgray-text">• Yesterday</span></p>
-			<p class="wd-white-text wd-bold-text ">Record Lows in Boston and Providence as Brutal Cold Hits Northeast</p>
-		</div>
-		<div class="wd-img-portion">
-			<img src="images/boston.jpeg" alt="a picture of boston covered in snow"
-			     class="wd-post-image"/>
-		</div>
-	</div>
-	<!-- End of first d-type post -->
-	<!-- Second c-type post -->
-	<div class="wd-post">
-		<div class="wd-text-portion">
-			<p class="wd-lightgray-text wd-topic-font">Trending in Massachusetts</p>
-			<p class="wd-white-text wd-bold-text ">#Boston</p>
-			<p class="wd-lightgray-text wd-topic-font">2,11 Tweets</p>
-		</div>
-		<div class="wd-img-portion">
-			<img src="images/more-horizontal.svg" alt="3 dots representing more option"/>
-		</div>
-	</div>
-	<!-- End of Second c-type post -->
-	<!-- Start of first e-type post -->
-	<div class="wd-post">
-		<div class="wd-text-portion">
-			<p class="wd-lightgray-text wd-topic-font">COVID-19 • LIVE</p>
-			<p class="wd-white-text wd-bold-text ">COVID-19: News and updates for Massachusetts</p>
-		</div>
-		<div class="wd-img-portion">
-			<img src="images/covid.jpeg" alt="a picture of a germ"
-			     class="wd-post-image"/>
-		</div>
-	</div>
-	<!-- End of first e-type post -->
 </div>
-<div class="wd-grid-col-right-sidebar"></div>
+<div class="col-4 d-none d-lg-block">
+<!--	<div class="me-5">-->
+		<div class="list-group me-5">
+			<a href="#" class="list-group-item list-group-item-action">
+				<b>Who to follow</b></a>
+			<a href="#" class = "list-group-item list-group-item-action d-inline-block">
+				<div class="row">
+			<div class="col-2">
+				<img src="images/java.jpeg" width="40px" height="40px" class="rounded-circle" alt="java logo">
+				</div>
+				<div class="col-8">
+					<b>Java</b> <i class="fa-solid fa-circle-check"></i><br/>
+				@java
+				</div>
+				<div class="col-2">
+				<button type="button" class="btn btn-primary rounded-pill ps-3 pe-3 float-end">Follow</button>
+				</div>
+				</div>
+			</a>
+			<a href="#" class = "list-group-item list-group-item-action d-inline-block">
+				<div class="row">
+					<div class="col-2">
+						<img src="images/relativity.jpeg" width="40px" height="40px" class="rounded-circle" alt="relativity logo">
+					</div>
+					<div class="col-8">
+						<b> Relativity Space</b> <i class="fa-solid fa-circle-check"></i><br/>
+						@relativityspace
+					</div>
+					<div class="col-2">
+						<button type="button" class="btn btn-primary rounded-pill ps-3 pe-3 float-end">Follow</button>
+					</div>
+				</div>
+			</a>
+			<a href="#" class = "list-group-item list-group-item-action d-inline-block">
+				<div class="row">
+					<div class="col-2">
+						<img src="images/virgin.svg" width="40px" height="40px" class="rounded-circle" alt="virgin galactic logo">
+					</div>
+					<div class="col-8">
+						<b>Virgin Galactic </b><i class="fa-solid fa-circle-check"></i><br/>
+						@virgingalactic
+					</div>
+					<div class="col-2">
+						<button type="button" class="btn btn-primary rounded-pill ps-3 pe-3 float-end">Follow</button>
+					</div>
+				</div>
+			</a>
+			<a href="#" class = "list-group-item list-group-item-action d-inline-block">
+				<div class="row">
+					<div class="col-2">
+						<img src="images/nasa.png" width="40px" height="40px" class="rounded-circle" alt="nasa logo">
+					</div>
+					<div class="col-8">
+						<b>NASA</b> <i class="fa-solid fa-circle-check"></i><br/>
+						@nasa
+					</div>
+					<div class="col-2">
+						<button type="button" class="btn btn-primary rounded-pill ps-3 pe-3 float-end">Follow</button>
+					</div>
+				</div>
+			</a>
+			<a href="#" class = "list-group-item list-group-item-action d-inline-block">
+				<div class="row">
+					<div class="col-2">
+						<img src="images/tesla.jpeg" width="40px" height="40px" class="rounded-circle">
+					</div>
+					<div class="col-8">
+						<b>Tesla</b> <i class="fa-solid fa-circle-check"></i><br/>
+						@tesla
+					</div>
+					<div class="col-2">
+						<button type="button" class="btn btn-primary rounded-pill ps-3 pe-3 float-end">Follow</button>
+					</div>
+				</div>
+			</a>
+<!--	</div>-->
+</div>
+</div>
+</div>
+</div>
+<script src="https://kit.fontawesome.com/a8ca9dd7b2.js" crossorigin="anonymous"></script>
 </body>
 </html>
