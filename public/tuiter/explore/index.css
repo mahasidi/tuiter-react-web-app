@@ -8,7 +8,6 @@
 }
 
 .border-search {
-    border: solid 1px #d0d4dc;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
@@ -31,7 +30,7 @@
 }
 
 .gear-icon-color {
-    color: #0a53be;
+    color: #309cd4;
 }
 
 .bottom-20 {
@@ -66,4 +65,8 @@ text-align: left;
     .hide-screen {
         display: none !important;
     }
+}
+
+.wd-top-padding-spe {
+    padding-top: 10px;
 }
