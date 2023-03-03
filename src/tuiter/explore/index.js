@@ -1,7 +1,7 @@
 import React from "react";
 import PostSummaryList from "../post-summary-list";
 import './index.css';
-import 'https://kit.fontawesome.com/a8ca9dd7b2.js';
+import 'font-awesome/css/font-awesome.min.css';
 import mainImg from '../images/space-x.jpeg';
 
 const ExploreComponent = () => {
