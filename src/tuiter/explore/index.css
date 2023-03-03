@@ -1,0 +1,104 @@
+.fit-area {
+    display: flex;
+}
+.wd-transparent-input {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.border-search {
+    border: solid #dfdfdf;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-right: 0px;
+
+}
+
+.border-right-round {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.no-border {
+    border: 0;
+}
+.no-border-right {
+    border-right: 0px;
+}
+.no-border-only-bottom {
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+.no-border-left {
+    border-left: 0px;
+}
+
+.gear-icon-color {
+    color: #106cfc;
+}
+
+.bottom-20 {
+    position: fixed;
+    bottom: 30px
+}
+.wd-lightgray-text {
+    color: #6c747d;
+}
+
+.rounded-img {
+    border-radius: 15%;
+}
+
+.img-text {
+text-align: left;
+    position: absolute;
+    bottom: -23px;
+    left: 0px;
+
+    /*margin-left: -100px;*/
+    /*margin-bottom: -35px;*/
+}
+
+.img-sizing {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 957px) {
+    .hide-screen {
+        display: none !important;
+    }
+}
+
+.wd-top-padding-spe {
+    padding-top: 10px;
+}
+
+.wd-tabs li {
+    display: inline;
+}
+
+.wd-tabs {
+    padding-left: 0px;
+}
+
+.wd-selected {
+    border-bottom: 2px blue solid;
+    padding-bottom: 20px;
+}
+
+.wd-nudge-up {
+    bottom: 18px;
+    left: 25px;
+}
+
+.wd-bottom-2 {
+    bottom: 2px;
+}
+
+.wd-bottom-4 {
+    bottom: 4px;
+}
