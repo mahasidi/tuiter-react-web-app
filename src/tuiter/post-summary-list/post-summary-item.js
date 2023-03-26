@@ -16,7 +16,7 @@ const PostSummaryItem = (
 		<a href="#" className="list-group-item list-group-item-action d-inline-block">
 			<div className="row">
 				<div className="col-10">
-					<p><span className="wd-lightgray-text">{post.userName} . {post.time}</span> <br/>
+					<p><span className="wd-lightgray-text">{post.userName} • {post.time}</span> <br/>
 						<b>{post.userName}</b>
 						<br/>
 						 {post.title}
