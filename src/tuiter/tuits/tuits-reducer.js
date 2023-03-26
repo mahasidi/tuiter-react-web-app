@@ -4,7 +4,7 @@ import tuits from '../tuits/tuits.json';
 const currentUser = {
 	"userName": "NASA",
 	"handle": "@nasa",
-	"image": "nasa.png",
+	"image": "https://i.ibb.co/FDT1ngc/Screen-Shot-2023-03-26-at-3-09-36-PM.png"
 };
 
 const templateTuit = {
@@ -40,14 +40,21 @@ const tuitsSlice = createSlice({
 					tuit._id === action.payload);
 			const tuit = state[index];
 
+			const heartElement = document.getElementById(tuit._id);
+
 			if (tuit.liked) {
 				tuit.likes--;
 				tuit.liked = false;
 				// make empty heart
+				console.log("you pressed and its been liked");
+				heartElement.className = "bi bi-heart";
+
 			} else {
 				tuit.likes++;
 				tuit.liked = true;
 				// make full heart
+				console.log("you pressed and its not been liked");
+				heartElement.className = "text-danger bi bi-heart-fill";
 			}
 		}
 

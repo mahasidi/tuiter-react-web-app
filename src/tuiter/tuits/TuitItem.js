@@ -11,7 +11,7 @@ const TuitItem = (
 			"userName": "SpaceX",
 			"time": "2h",
 			"title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
-			"image": "spacex.jpeg",
+			"image": "https://asset.brandfetch.io/id2g3lee9x/idXX_e5k_s.jpeg",
 			"liked": true,
 			"replies": 123,
 			"retuits": 432,
@@ -30,7 +30,7 @@ const TuitItem = (
 		<a href="#" className="list-group-item list-group-item-action d-inline-block">
 			<div className="row">
 				<div className="col-1">
-				<img src={`../../images/${tuit.image}`} width={40} height={40} className="rounded-circle"/>
+				<img src={`${tuit.image}`} width={40} height={40} className="rounded-circle"/>
 				</div>
 				<div className="col-11">
 					<i className="bi bi-x-lg float-end"

@@ -11,7 +11,7 @@ const TuitStats = (
 			"time": "2h",
 			"title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
 			"image": "spacex.jpeg",
-			"liked": true,
+			"liked": false,
 			"replies": 123,
 			"retuits": 432,
 			"likes": 2345,
@@ -22,18 +22,17 @@ const TuitStats = (
 ) => {
 
 	const dispatch = useDispatch();
-	const updateLikesHandler = () => {
-		dispatch(updateLikes());
+	const updateLikesHandler = (id) => {
+		dispatch(updateLikes(id));
 	}
 
 	return (
 			<div className="row d-inline">
-				<img src={`message-circle.svg`} alt={'comment button'}/>{tuit.replies}
-					<img src={`tuits/images/repeat.svg`} alt={'retweet button'}/>{tuit.retuits}
-						 <img src={`./images/heart.svg`} alt={'like button'}
-						      onClick = {() => updateLikesHandler()}
-						 />{tuit.likes}
-				<img src={`./images/share.svg`} alt={'share button'}/>
+				<i className="bi bi-chat"></i>{tuit.replies}
+				<i className="bi bi-arrow-repeat heart"></i>{tuit.retuits}
+				<i className="bi bi-heart" id={tuit._id} onClick = {() => updateLikesHandler(tuit._id)}></i>
+						 {tuit.likes}
+				<i className="bi bi-share"></i>
 			</div>
 	);
 }

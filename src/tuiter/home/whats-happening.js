@@ -15,10 +15,11 @@ const WhatsHappening = () => {
 	}
 	return (
 		<div className="row">
-			<div className="col-auto">
-				<img src="../images/nasa.png"/>
+			<div className="col-1">
+				<img className="rounded-circle" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png"
+				     width={50} height={40}/>
 			</div>
-			<div className="col-10">
+			<div className="col-11">
        <textarea value={whatsHappening} placeholder="What's happening?"
                  className="form-control border-0"
                  onChange={(event) => setWhatsHappening(event.target.value)}>
@@ -28,7 +29,7 @@ const WhatsHappening = () => {
 					        onClick={tuitClickHandler}>
 						Tuit
 					</button>
-					<div className="text-primary fs-2">
+					<div className="text-primary fs-5">
 						<i className="bi bi-card-image me-3" ></i>
 						<i className="bi bi-filetype-gif me-3"></i>
 						<i className="bi bi-bar-chart me-3"></i>
